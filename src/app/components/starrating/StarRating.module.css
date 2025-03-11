@@ -1,0 +1,14 @@
+.star {
+    font-size: 24px;
+    color: lightgray;
+  }
+  
+  .filled {
+    
+    color: gold; /* Change this to your preferred filled color */
+  }
+  .rating-count {
+    margin-left: 10px;
+    font-size: 17px;
+    color: #777;
+}

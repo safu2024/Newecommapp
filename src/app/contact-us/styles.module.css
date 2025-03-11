@@ -1,0 +1,78 @@
+.contactus {
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(13 110 253);
+    color: white;
+    height: 250px;
+  }
+  .contact {
+    display: flex;
+    border: none;
+    height: 200px;
+  }
+  .cont1 {
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .contactcontainer {
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+    float: left;
+    margin-left: 100px;
+  }
+  
+  .contactcontainer h4 {
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color: rgb(13 110 253);
+  }
+  
+  .contact-container p {
+    margin: 10px 0;
+    
+  }
+  
+  .sociallinks {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    
+  }
+  
+  .sociallinks a {
+    text-decoration: none;
+    margin: 5px 0;
+   
+  }
+  
+  .sociallinks a:hover {
+    text-decoration: underline;
+  }
+  
+  .contactus1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-left: 1px solid rgb(13 110 253);
+  
+    height: 100%;
+    margin-top: 10px;
+    align-content: center;
+  }
+  .btnSubmit {
+    border-radius: 10px;
+    background-color: rgb(13 110 253);
+    width: 250px;
+    height: 40px;
+  }

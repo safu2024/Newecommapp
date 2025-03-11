@@ -1,0 +1,39 @@
+.aboutus {
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(13 110 253);
+    color: white;
+  }
+  .subtitle {
+    display: flex;
+    border: none;
+    height: 200px;
+  }
+  
+  .subtitle li {
+    list-style: none;
+  }
+  
+  .sub1 {
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: 8px 8px 5px rgb(124, 130, 133);
+  }
+  .sub2 {
+    background-color: whitesmoke;
+    height: 200px;
+    margin-top: 40px;
+    align-self: center;
+  }
+  .sub2 li {
+    display: inline;
+    padding: 130px;
+    font-size: 20px;
+  }

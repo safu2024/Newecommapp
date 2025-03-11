@@ -1,0 +1,22 @@
+.boxdetail {
+    width: 80%;
+    height: 450px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .boxdetail img {
+    width: 450px;
+    height: 400px;
+    float: left;
+  }
+  .boxdetail button {
+    background-color: rgb(13 110 253);
+    border-radius: 10px;
+    width: 200px;
+    align-self: center;
+  }

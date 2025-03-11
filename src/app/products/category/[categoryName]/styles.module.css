@@ -1,0 +1,36 @@
+.listbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:flex-start; */
+    flex-direction:row;
+    margin-left: 5px;
+    background-color: white;
+}
+.productlist{
+   
+    width: 230px;
+    height: 400px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    align-items: center;
+    padding: 10px;  
+    margin-left: 5px;
+   
+    
+}
+.productlist img{
+    width: 200px;
+    height: 200px;
+   
+}
+.listbox li {
+    list-style: none;
+  }
+/* .cart {
+    background-color: rgb(240, 240, 80);
+    border-radius: 50px;
+    width:150px;
+  } */

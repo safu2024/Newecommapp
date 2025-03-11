@@ -1,0 +1,85 @@
+.cartbox {
+    width: 70%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    float: left;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .cartbox li{
+    list-style: none;
+  }
+  .cartbox img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 40px;
+    margin-top: -20px;
+  }
+  .cartbox button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: left;
+  }
+  .totalcart {
+    width: 25%;
+    height: 250px;
+    margin-top: 0;
+    float: right;
+    margin-right:10px;
+    padding: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  .totalcart h4 {
+    color: gray;
+    text-decoration: underline;
+  }
+  .priceitem {
+    padding: 20px;
+    text-align: left;
+    margin-left: 150px;
+  }
+  .priceitem button {
+    width: 50px;
+    margin-left: 20px;
+  }
+  .ItemQty {
+    margin-top: -200px;
+    margin-left: -400px;
+    display: inline-block;
+    padding-left: 1px;
+    font-weight: bold;
+  }
+  
+  .trash {
+    margin-left: 50px;
+    margin-bottom: 200px;
+    background-color: rgb(240, 240, 80);
+  }
+  .cartheading {
+    border-bottom: 1px solid blue;
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 10px;
+    margin-bottom: 0;
+    text-align: left;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+  }
+  .cartheading h5 {
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+  .qtybutton {
+    display: flex;
+    width: 180px;
+    justify-content: space-around;
+  }
