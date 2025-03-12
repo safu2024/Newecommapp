@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import styles from "./styles.module.css";
 import StarRating from "@/app/components/starrating/StarRating";
 import { ProductServices } from "../../app/services/Product-services";
@@ -8,7 +8,7 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-const SearchResults = () => {
+const SearchProductsPage = () => {
   const [products, setProducts] = useState([]);
   const searchParams = useSearchParams();
   const query = searchParams.get("query") || "";
@@ -83,4 +83,13 @@ const SearchResults = () => {
   );
 };
 
+const SearchResults = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SearchProductsPage />
+    </Suspense>
+  );
+};
+
 export default SearchResults;
+
