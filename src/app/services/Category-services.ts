@@ -6,6 +6,6 @@ export class CategoryServices extends ServiceBase {
     return categories;
   };
   static getImageUrl(categories: any) {
-    return "http://localhost:1337" + categories.image.url;
+    return categories.image.url;
   }
 }

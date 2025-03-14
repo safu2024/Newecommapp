@@ -30,7 +30,7 @@ const Cart = () => {
     console.log("Items are: ", cartItems);
     try {
       for (const dataItem of cartItems) {
-        const response = await fetch("http://localhost:1337/api/carts", {
+        const response = await fetch("https://committed-cuddle-c8ed3640e9.strapiapp.com/api/carts", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -78,16 +78,18 @@ const Cart = () => {
         </h3>
       ) : (
         
+        
         items.map((item) => (
-          <ul className={styles.cartbox}>
-            
+          
+          <div className={styles.cartbox}>
+          
               <li key={item.documentId}>
                 <h5 style={{ textAlign: "right" }}>
                   {" "}
                   ${(item.price * item.quantity).toFixed(2)}
                 </h5>
                 <img
-                  src={`http://localhost:1337${item.image.url}`}
+                  src={item.image.url}
                   alt={item.title}
                 />
                 <h4 style={{ textAlign: "left" }}>{item.title}</h4>
@@ -135,9 +137,10 @@ const Cart = () => {
                   </button>
                 </div>
               </li>
-            
-          </ul>
+         
+          </div>
         ))
+        
       )}
     </div>
   );

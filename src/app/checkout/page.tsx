@@ -10,7 +10,7 @@ export default function OrderSummary() {
   const { items } = state;
   useEffect(() => {
     const fetchProducts = async () => {
-      const response = await fetch("http://localhost:1337/api/carts");
+      const response = await fetch("https://committed-cuddle-c8ed3640e9.strapiapp.com/api/carts");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -24,7 +24,7 @@ export default function OrderSummary() {
   const handlePlaceOrder = async () => {
     const idsToDelete = orderItems.map((item: any) => item.documentId);
     const deletePromises = idsToDelete.map((documentId) => {
-      return fetch(`http://localhost:1337/api/carts/${documentId}`, {
+      return fetch(`https://committed-cuddle-c8ed3640e9.strapiapp.com/api/carts/${documentId}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
@@ -89,7 +89,6 @@ export default function OrderSummary() {
                 value="option2"
               />
               <label className="form-check-label">
-                {/* for="gridRadios2"> */}
                 Net Banking
               </label>
             </div>

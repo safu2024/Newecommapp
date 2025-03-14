@@ -6,7 +6,7 @@ export class ProductServices extends ServiceBase {
     return products;
   };
   static getImageUrl(products: any) {
-    return "http://localhost:1337" + products.image.url;
+    return  products.image.url;
   }
   static getProductById = async (id: string) => {
     var productResp = await fetch(this.getUrl(`/products/${id}?populate=*`));
