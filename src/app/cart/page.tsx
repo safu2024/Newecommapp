@@ -81,7 +81,7 @@ const Cart = () => {
         
         items.map((item) => (
           
-          <div className={styles.cartbox}>
+          <ul className={styles.cartbox}>
           
               <li key={item.documentId}>
                 <h5 style={{ textAlign: "right" }}>
@@ -138,7 +138,7 @@ const Cart = () => {
                 </div>
               </li>
          
-          </div>
+          </ul>
         ))
         
       )}
