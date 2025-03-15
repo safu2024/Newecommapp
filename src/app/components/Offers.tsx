@@ -1,25 +1,25 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { Card } from "react-bootstrap";
+
 const offersData = [
-  { id: 1, description: "50% off on all products", image: "/images/card3.jpg" },
-  { id: 2, description: "Buy 1 get 1 free", image: "/images/card4.jpg" },
-  { id: 3, description: "Season sale", image: "/images/card5.jpg" },
+  { id: 1, description: "50% off on all products", image: "./images/card3.jpg" },
+  { id: 2, description: "Buy 1 get 1 free", image: "./images/card4.jpg" },
+  { id: 3, description: "Season sale", image: "./images/card5.jpg" },
   {
     id: 4,
     description: "Min. 40% off | Fun toys & games",
-    image: "/images/card1.jpg",
+    image: "./images/card1.jpg",
   },
   {
     id: 5,
     description: "Free shipping on orders over $50",
-    image: "/images/card7.jpg",
+    image: "./images/card7.jpg",
   },
   {
     id: 6,
     description: "Upto 60% off on all products",
-    image: "/images/card6.jpg",
+    image: "./images/card6.jpg",
   },
 ];
 
