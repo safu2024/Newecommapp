@@ -5,7 +5,6 @@ import React, { useState } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { FaShoppingCart, FaSearch } from "react-icons/fa";
 import { useRouter } from "next/navigation";
-
 import { useCart } from "@/app/components/context/CartContext";
 
 const MyNavbar = () => {
@@ -29,7 +28,7 @@ const MyNavbar = () => {
       <div className="container" style={{ fontSize: "20px" }}>
         <Link className="navbar-brand" href={"/"}>
           <Image
-            src={"/images/Newicon.jpg"}
+            src={"/Newicon.JPG"}
             height={50}
             width={100}
             alt="shopicon"

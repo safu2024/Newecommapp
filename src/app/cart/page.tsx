@@ -80,8 +80,7 @@ const Cart = () => {
         
         
         items.map((item) => (
-          
-          <ul className={styles.cartbox}>
+           <ul className={styles.cartbox}>
           
               <li key={item.documentId}>
                 <h5 style={{ textAlign: "right" }}>

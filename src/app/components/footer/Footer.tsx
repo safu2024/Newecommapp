@@ -150,7 +150,7 @@ const Footer = () => {
           <li>@2009-2024 Connect Shoppingkart</li>
           <li>
             <Image
-              src={"/images/card.jpg"}
+              src={"/card.JPG"}
               width={385}
               height={28}
               alt="card"

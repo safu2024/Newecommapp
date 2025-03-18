@@ -10,7 +10,7 @@ const MyCarousel = () => {
         <Carousel.Item>
           <Image
             className="d-block w-100"
-            src="/images/banner1.jpg"
+            src="/banner1.JPG"
             alt="First slide"
             layout="responsive"
             width={800}
@@ -20,7 +20,7 @@ const MyCarousel = () => {
         <Carousel.Item>
           <Image
             className="d-block w-100"
-            src="/images/banner2.jpg"
+            src="/banner2.JPG"
             alt="Second slide"
             layout="responsive"
             width={800}
@@ -30,7 +30,7 @@ const MyCarousel = () => {
         <Carousel.Item>
           <Image
             className="d-block w-100"
-            src="/images/banner3.jpg"
+            src="/banner3.JPG"
             alt="Third slide"
             layout="responsive"
             width={800}
@@ -40,7 +40,7 @@ const MyCarousel = () => {
         <Carousel.Item>
           <Image
             className="d-block w-100"
-            src="/images/banner4.jpg"
+            src="/banner4.JPG"
             alt="Fourth slide"
             layout="responsive"
             width={800}
@@ -50,7 +50,7 @@ const MyCarousel = () => {
         <Carousel.Item>
           <Image
             className="d-block w-100"
-            src="/images/banner5.jpg"
+            src="/banner5.JPG"
             alt="Fifth slide"
             layout="responsive"
             width={800}
@@ -60,7 +60,7 @@ const MyCarousel = () => {
         <Carousel.Item>
           <Image
             className="d-block w-100"
-            src="/images/banner6.jpg"
+            src="/banner6.JPG"
             alt="sixth slide"
             layout="responsive"
             width={800}
